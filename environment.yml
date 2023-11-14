@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - parafly
+  - ucsc-bedtobigbed
+  # Should be in bedops
+  # - bedmap
+  - bedops
+  - bedtools
+  - bwa
+  - samtools
+  - ucsc-twobittofa
